@@ -51,6 +51,9 @@
                                 echo'<li class="nav-item">
                         <a href="productos.php" class="nav-link ">Productos en tienda</a>
                     </li>';
+                    echo'<li class="nav-item">
+                        <a href="descargas.html" class="nav-link ">Descargas</a>
+                    </li>';
                             }
                             echo'<li class="nav-item">
                     <a href="cerrar-sesion.php" class="nav-link ">Cerrar sesion</a>

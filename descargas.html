@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head >
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunset skincare </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="Stylesheet"href="descargas.css"/>
+</head>
+<body>
+    <div class="head">
+        <div class="loguito">
+            <a href="index.php"><img src="./images/fondo sun.jpg" alt=""></a>
+    </div>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i> <!--AGREGAR ICONOS-->
+                    <i class="fas fa-times"></i> <!--AGREGAR ICONOS-->
+                </div>
+                <a href="#" class="Logo sunset"></a>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.php" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="productos.html" class="nav-link active">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="cerrar-sesion.php" class="nav-link active">Cerrar sesion</a>
+                    </li>
+               </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="heros" id="heros">
+        <div class="container">
+            <h2 class="h2-sub">
+                <span class="fil">R</span>ecursos de apoyo <!--aplicar estilo al texto o agrupar elementos en línea-->
+            </h2>
+            <div class="he-des">
+                <h6>Descargar</h6>
+        <a href="./archivos/skin.pdf" download>
+        <a href="./archivos/skin.pdf" class="btn cta-btn" download="Importancia del skincare">Manual informativo</a>
+    
+        <a href="./archivos/skin.pdf" download>
+        <a href="./archivos/pasosSkin.jpg" class="btn cta-btn" download="Pasos para una rutina de skincare">Pasos de Skincare</a>
+       
+    </div>
+        </div>
+    </section>
+
+    <section>
+
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-content-about">
+                   </div>
+                <div class="footer-div">
+                    <div class="social-media">
+                        <h4>Siguenos en nuestras redes!</h4>
+                        <ul class="social-icons">
+                            <li>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-pinterest"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-tripadvisor"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+      </footer>
+   
+        <script>
+      
+          const selectElement = function(element) {
+              return document.querySelector(element);
+          }
+      
+      
+          let menuToggle = selectElement('.menu-toggle');
+          let body = selectElement('body');
+      
+          menuToggle.addEventListener('click', function(){
+              body.classList.toggle('open');
+          })
+      
+      </script>
+      </body>
+      
+      </html>
